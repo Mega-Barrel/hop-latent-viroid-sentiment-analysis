@@ -2,7 +2,7 @@
 env-str/
 
 # data
-data/
+data/raw_data
 
 # pycache files
 __pycache__
