@@ -9,7 +9,7 @@ def count_hashtag(data):
     pattern = re.compile(r"(?<=[\s>])#(\d*[A-Za-z_]+\d*)\b(?!;)")
 
     for i in hash_tag:
-        t = re.findall(pattern, i)
+        t = re.findall(pattern, str(i))
         for j in t:
             if j not in hashtags:
                 hashtags[j] = 1
