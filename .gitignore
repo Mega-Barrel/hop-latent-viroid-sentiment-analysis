@@ -2,8 +2,7 @@
 env-str/
 
 # data
-data/2020_01_2022_10_data.csv
-data/2022_10_2023_09_data.csv
+data/
 
 # pycache files
 __pycache__
