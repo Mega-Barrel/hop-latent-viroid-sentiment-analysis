@@ -18,7 +18,7 @@ pages_name_to_funcs = {
 if __name__ == '__main__':
     # Sidebar
     demo_name = st.sidebar.selectbox(
-        "Choose a demo", 
+        "Select Page", 
         pages_name_to_funcs.keys()
     )
     pages_name_to_funcs[demo_name]()
