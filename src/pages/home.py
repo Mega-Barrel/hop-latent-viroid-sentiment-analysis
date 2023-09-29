@@ -16,7 +16,7 @@ def home_page():
         'Bud Rot': 'data/bud_rot_data.csv',
         'Cannabis Mold': 'data/cannabis_mold_data.csv',
         'Cannabis Mould': 'data/cannabis_mould_data.csv',
-        'Hop Latent': 'data/hop_latent.csv'
+        'Hop Latent Viroid': 'data/hop_latent.csv'
     }
 
     DATA_PATH = st.selectbox('Select the Keyword', kEYWORDS_NAMES)
