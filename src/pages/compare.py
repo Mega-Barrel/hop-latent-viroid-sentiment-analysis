@@ -9,7 +9,7 @@ def sample_page():
 
     st.markdown(
     """
-        **⬇️ Compare Virus VS mould keywords** tweets
+        ⬇️ Compare **Virus VS Mould** keyword tweets
     """
     )
     kwd_1, kwd_2 = st.columns(2)
@@ -18,7 +18,7 @@ def sample_page():
 
     VIRUS_kEYWORDS_NAMES = {
         'Bud Rot': 'data/bud_rot_data.csv',
-        'Hop Latent': 'data/hop_latent.csv'
+        'Hop Latent Viroid': 'data/hop_latent.csv'
     }
     
     MOLD_kEYWORDS_NAMES = {
